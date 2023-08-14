@@ -1,3 +1,7 @@
+#Andrew Torres CIS-261
+
+print("The Invoice Line Item Calculator")
+
 def get_price():
     while True:
         try:
@@ -22,8 +26,6 @@ def display_invoice_line_item(quantity, price, total):
     print(f"Price: ${price:.2f}")
     print(f"Total: ${total:.2f}")
     print("=" * 20)
-
-print("The Invoice Line Item Calculator")
 
 while True:
     price = get_price()
